@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".busqueda">
+
+    <TextView
+        android:id="@+id/tv_recetas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/busqueda"
+        android:textColor="@color/orange"
+        android:textSize="60sp"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <FrameLayout
+        android:id="@+id/frameBusqueda"
+        android:layout_width="350dp"
+        android:layout_height="500dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/fondo_redondeado"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_recetas" >
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/tv_textoIngredientes"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/textoBusqueda"
+        android:textAlignment="center"
+        android:textColor="@color/darkGray"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="@+id/frameBusqueda"
+        app:layout_constraintStart_toStartOf="@+id/frameBusqueda"
+        app:layout_constraintTop_toTopOf="@+id/frameBusqueda" />
+
+    <CheckBox
+        android:id="@+id/cb_tomate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/tomate"
+        android:textSize="15sp"
+        app:layout_constraintStart_toStartOf="@+id/frameBusqueda"
+        app:layout_constraintTop_toBottomOf="@+id/tv_textoIngredientes" />
+
+    <CheckBox
+        android:id="@+id/cb_carne"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/carne"
+        android:textSize="15sp"
+        app:layout_constraintStart_toEndOf="@+id/cb_tomate"
+        app:layout_constraintTop_toBottomOf="@+id/tv_textoIngredientes" />
+
+    <CheckBox
+        android:id="@+id/cb_cebolla"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:text="@string/cebolla"
+        android:textSize="15sp"
+        app:layout_constraintStart_toStartOf="@+id/frameBusqueda"
+        app:layout_constraintTop_toBottomOf="@+id/cb_tomate" />
+
+    <CheckBox
+        android:id="@+id/cb_pollo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:text="@string/pollo"
+        android:textSize="15sp"
+        app:layout_constraintStart_toStartOf="@+id/frameBusqueda"
+        app:layout_constraintTop_toBottomOf="@+id/cb_cebolla" />
+
+    <CheckBox
+        android:id="@+id/cb_pasta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:text="@string/pasta"
+        android:textSize="15sp"
+        app:layout_constraintStart_toStartOf="@+id/frameBusqueda"
+        app:layout_constraintTop_toBottomOf="@+id/cb_pollo" />
+
+    <CheckBox
+        android:id="@+id/cb_chile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:text="@string/chile"
+        android:textSize="15sp"
+        app:layout_constraintStart_toStartOf="@+id/frameBusqueda"
+        app:layout_constraintTop_toBottomOf="@+id/cb_pasta" />
+
+    <CheckBox
+        android:id="@+id/cb_queso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:text="@string/queso"
+        android:textSize="15sp"
+        app:layout_constraintStart_toStartOf="@+id/frameBusqueda"
+        app:layout_constraintTop_toBottomOf="@+id/cb_chile" />
+
+    <CheckBox
+        android:id="@+id/cb_tortillas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:text="@string/tortillas"
+        android:textSize="15sp"
+        app:layout_constraintStart_toStartOf="@+id/frameBusqueda"
+        app:layout_constraintTop_toBottomOf="@+id/cb_queso" />
+
+    <CheckBox
+        android:id="@+id/cb_mayonesa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:text="@string/mayonesa"
+        android:textSize="15sp"
+        app:layout_constraintStart_toStartOf="@+id/frameBusqueda"
+        app:layout_constraintTop_toBottomOf="@+id/cb_tortillas" />
+
+    <CheckBox
+        android:id="@+id/cb_jamon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:text="@string/jamon"
+        android:textSize="15sp"
+        app:layout_constraintStart_toEndOf="@+id/cb_tomate"
+        app:layout_constraintTop_toBottomOf="@+id/cb_carne" />
+
+    <CheckBox
+        android:id="@+id/cb_pan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:text="@string/pan"
+        android:textSize="15sp"
+        app:layout_constraintStart_toEndOf="@+id/cb_tomate"
+        app:layout_constraintTop_toBottomOf="@+id/cb_jamon" />}
+
+    <CheckBox
+        android:id="@+id/cb_elote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:text="@string/elote"
+        android:textSize="15sp"
+        app:layout_constraintStart_toEndOf="@+id/cb_tomate"
+        app:layout_constraintTop_toBottomOf="@+id/cb_pan" />
+
+    <CheckBox
+        android:id="@+id/cb_aceitunas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:text="@string/aceitunas"
+        android:textSize="15sp"
+        app:layout_constraintStart_toEndOf="@+id/cb_tomate"
+        app:layout_constraintTop_toBottomOf="@+id/cb_elote" />
+
+    <CheckBox
+        android:id="@+id/cb_pepino"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:text="@string/pepino"
+        android:textSize="15sp"
+        app:layout_constraintStart_toEndOf="@+id/cb_tomate"
+        app:layout_constraintTop_toBottomOf="@+id/cb_aceitunas" />
+
+    <CheckBox
+        android:id="@+id/cb_salchicha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:text="@string/salchicha"
+        android:textSize="15sp"
+        app:layout_constraintStart_toEndOf="@+id/cb_tomate"
+        app:layout_constraintTop_toBottomOf="@+id/cb_pepino" />
+
+    <CheckBox
+        android:id="@+id/cb_mostaza"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:text="@string/mostaza"
+        android:textSize="15sp"
+        app:layout_constraintStart_toEndOf="@+id/cb_tomate"
+        app:layout_constraintTop_toBottomOf="@+id/cb_salchicha" />
+
+    <Button
+        android:id="@+id/btn_buscar"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/btn_redondo"
+        android:text="@string/buscar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/frameBusqueda" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

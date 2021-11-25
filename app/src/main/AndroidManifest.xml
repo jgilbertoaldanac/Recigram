@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Recigram">
         <activity
+            android:name=".resultados"
+            android:exported="true" />
+        <activity
+            android:name=".busqueda"
+            android:exported="true" />
+        <activity
+            android:name=".recetas"
+            android:exported="true" />
+        <activity
             android:name=".procedimiento"
             android:exported="true" />
         <activity

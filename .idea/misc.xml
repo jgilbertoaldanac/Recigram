@@ -5,11 +5,15 @@
       <map>
         <entry key="..\:/Users/jgila/AndroidStudioProjects/Recigram/app/src/main/res/drawable/btn_redondo.xml" value="0.22552083333333334" />
         <entry key="..\:/Users/jgila/AndroidStudioProjects/Recigram/app/src/main/res/drawable/fondo_redondeado.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/jgila/AndroidStudioProjects/Recigram/app/src/main/res/layout/activity_busqueda.xml" value="0.25" />
         <entry key="..\:/Users/jgila/AndroidStudioProjects/Recigram/app/src/main/res/layout/activity_casa.xml" value="0.2" />
         <entry key="..\:/Users/jgila/AndroidStudioProjects/Recigram/app/src/main/res/layout/activity_crear_cuenta.xml" value="0.19610507246376813" />
         <entry key="..\:/Users/jgila/AndroidStudioProjects/Recigram/app/src/main/res/layout/activity_iniciar_sesion.xml" value="0.19610507246376813" />
         <entry key="..\:/Users/jgila/AndroidStudioProjects/Recigram/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/jgila/AndroidStudioProjects/Recigram/app/src/main/res/layout/activity_procedimiento.xml" value="0.19610507246376813" />
         <entry key="..\:/Users/jgila/AndroidStudioProjects/Recigram/app/src/main/res/layout/activity_receta.xml" value="0.25" />
+        <entry key="..\:/Users/jgila/AndroidStudioProjects/Recigram/app/src/main/res/layout/activity_recetas.xml" value="0.19610507246376813" />
+        <entry key="..\:/Users/jgila/AndroidStudioProjects/Recigram/app/src/main/res/layout/activity_resultados.xml" value="0.19610507246376813" />
         <entry key="..\:/Users/jgila/AndroidStudioProjects/Recigram/app/src/main/res/layout/activity_terminos_condiciones.xml" value="0.19610507246376813" />
         <entry key="..\:/Users/jgila/AndroidStudioProjects/Recigram/app/src/main/res/layout/crear_cuenta.xml" value="0.1" />
         <entry key="..\:/Users/jgila/AndroidStudioProjects/Recigram/app/src/main/res/layout/iniciar_sesion.xml" value="0.19610507246376813" />

@@ -36,5 +36,27 @@
     <string name="num">0</string>
     <string name="ingredientes">Ingredientes</string>
     <string name="irProcedimiento">Ir al procedimiento</string>
+    <string name="procedimiento">Procedimiento</string>
+    <string name="recetas">Recetas</string>
+    <string name="busqueda">Búsqueda</string>
+    <string name="buscar">Buscar</string>
+    <string name="textoBusqueda">Selecciona los ingredientes por los cuales quieres realizar la búsqueda</string>
+    <string name="tomate">Tomate</string>
+    <string name="carne">Carne</string>
+    <string name="cebolla">Cebolla</string>
+    <string name="jamon">Jamón</string>
+    <string name="pollo">Pollo</string>
+    <string name="pan">Pan</string>
+    <string name="pasta">Pasta</string>
+    <string name="elote">Elote</string>
+    <string name="chile">Chile</string>
+    <string name="aceitunas">Aceitunas</string>
+    <string name="queso">Queso</string>
+    <string name="pepino">Pepino</string>
+    <string name="tortillas">Tortillas</string>
+    <string name="salchicha">Salchicha</string>
+    <string name="mayonesa">Mayonesa</string>
+    <string name="mostaza">Mostaza</string>
+    <string name="resultados">Resultados</string>
 
 </resources>
