@@ -20,6 +20,8 @@ class casa : AppCompatActivity() {
         setContentView(binding.root)
 
         auth = Firebase.auth
+
+        signOut()
         //setContentView(R.layout.activity_casa)
 
         val btn_ver : Button = findViewById(R.id.btn_ver)
@@ -41,6 +43,12 @@ class casa : AppCompatActivity() {
             startActivity(intent)
         }
 
+    }
+
+    private fun signOut(){
+        Firebase.auth.signOut()
+        val intent = Intent(this, iniciar_sesion::class.java)
+        startActivity(intent)
     }
 
 }
