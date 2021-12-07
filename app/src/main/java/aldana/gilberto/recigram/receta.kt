@@ -11,10 +11,14 @@ class receta : AppCompatActivity() {
 
     private val db = FirebaseFirestore.getInstance()
     lateinit var txtprocedimiento: String
+    lateinit var platillo: String
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_receta)
+
+        var intent : Intent = Intent(this, recetas::class.java)
+        platillo = getIntent().getExtras()?.getString("platillo").toString()
 
         val tv_numPorciones: TextView = findViewById(R.id.tv_numPorciones)
         val tv_numDificultad: TextView = findViewById(R.id.tv_numDificultad)
@@ -24,7 +28,7 @@ class receta : AppCompatActivity() {
         val chilaquilesrojos: String = "chilaquilesrojos"
 
 
-        db.collection("recetas").document(chilaquilesrojos).get().addOnSuccessListener {
+        db.collection("recetas").document(platillo.toString()).get().addOnSuccessListener {
             tv_numPorciones.text = (it.get("porciones" as String)).toString()
             tv_numDificultad.text = (it.get("dificultad" as String)).toString()
             tv_numTiempo.text = (it.get("tiempo" as String)).toString()

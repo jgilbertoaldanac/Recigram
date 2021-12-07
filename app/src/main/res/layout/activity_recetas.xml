@@ -1,25 +1,159 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".recetas">
+    android:layout_width="409dp"
+    android:layout_height="729dp"
+    tools:layout_editor_absoluteX="1dp"
+    tools:layout_editor_absoluteY="1dp">
 
-    <TextView
-        android:id="@+id/tv_recetas"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
-        android:text="@string/recetas"
-        android:textColor="@color/orange"
-        android:textSize="60sp"
-        android:textStyle="bold"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".recetas">
 
-    
+        <TextView
+            android:id="@+id/tv_recetas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="@string/recetas"
+            android:textColor="@color/orange"
+            android:textSize="60sp"
+            android:textStyle="bold"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <FrameLayout
+            android:id="@+id/frame_platillodia"
+            android:layout_width="285dp"
+            android:layout_height="300dp"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/fondo_redondeado"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_recetas" />
+
+        <ImageView
+            android:id="@+id/iv_platillo"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintEnd_toEndOf="@+id/frame_platillodia"
+            app:layout_constraintStart_toStartOf="@+id/frame_platillodia"
+            app:layout_constraintTop_toTopOf="@+id/frame_platillodia"
+            app:srcCompat="@drawable/chila" />
+
+        <TextView
+            android:id="@+id/tv_nombrePlatillo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/chilaquilesRojos"
+            android:textColor="@color/darkGray"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="@+id/frame_platillodia"
+            app:layout_constraintStart_toStartOf="@+id/frame_platillodia"
+            app:layout_constraintTop_toBottomOf="@+id/iv_platillo" />
+
+        <Button
+            android:id="@+id/btn_ver"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/btn_redondo"
+            android:text="@string/ver"
+            app:layout_constraintEnd_toEndOf="@+id/frame_platillodia"
+            app:layout_constraintStart_toStartOf="@+id/frame_platillodia"
+            app:layout_constraintTop_toBottomOf="@+id/tv_nombrePlatillo" />
+
+        <FrameLayout
+            android:id="@+id/frame_platillodia2"
+            android:layout_width="285dp"
+            android:layout_height="300dp"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/fondo_redondeado"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/frame_platillodia" />
+
+        <ImageView
+            android:id="@+id/iv_platillo2"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintEnd_toEndOf="@+id/frame_platillodia"
+            app:layout_constraintStart_toStartOf="@+id/frame_platillodia"
+            app:layout_constraintTop_toTopOf="@+id/frame_platillodia2"
+            app:srcCompat="@drawable/chila" />
+
+        <TextView
+            android:id="@+id/tv_nombrePlatillo2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/arrozleche"
+            android:textColor="@color/darkGray"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="@+id/frame_platillodia"
+            app:layout_constraintStart_toStartOf="@+id/frame_platillodia"
+            app:layout_constraintTop_toBottomOf="@+id/iv_platillo2" />
+
+        <Button
+            android:id="@+id/btn_ver2"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/btn_redondo"
+            android:text="@string/ver"
+            app:layout_constraintEnd_toEndOf="@+id/frame_platillodia"
+            app:layout_constraintStart_toStartOf="@+id/frame_platillodia"
+            app:layout_constraintTop_toBottomOf="@+id/tv_nombrePlatillo2" />
+
+        <FrameLayout
+            android:id="@+id/frame_platillodia3"
+            android:layout_width="285dp"
+            android:layout_height="300dp"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/fondo_redondeado"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/frame_platillodia2" />
+
+        <ImageView
+            android:id="@+id/iv_platillo3"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintEnd_toEndOf="@+id/frame_platillodia"
+            app:layout_constraintStart_toStartOf="@+id/frame_platillodia"
+            app:layout_constraintTop_toTopOf="@+id/frame_platillodia3"
+            app:srcCompat="@drawable/chila" />
+
+        <TextView
+            android:id="@+id/tv_nombrePlatillo3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/chilaquilesRojos"
+            android:textColor="@color/darkGray"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="@+id/frame_platillodia"
+            app:layout_constraintStart_toStartOf="@+id/frame_platillodia"
+            app:layout_constraintTop_toBottomOf="@+id/iv_platillo3" />
+
+        <Button
+            android:id="@+id/btn_ver3"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/btn_redondo"
+            android:text="@string/ver"
+            app:layout_constraintEnd_toEndOf="@+id/frame_platillodia"
+            app:layout_constraintStart_toStartOf="@+id/frame_platillodia"
+            app:layout_constraintTop_toBottomOf="@+id/tv_nombrePlatillo3" />
 
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
