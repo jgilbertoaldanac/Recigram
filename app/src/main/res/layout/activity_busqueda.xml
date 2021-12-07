@@ -51,6 +51,7 @@
         android:layout_marginTop="16dp"
         android:text="@string/tomate"
         android:textSize="15sp"
+        android:textColor="@color/darkGray"
         app:layout_constraintStart_toStartOf="@+id/frameBusqueda"
         app:layout_constraintTop_toBottomOf="@+id/tv_textoIngredientes" />
 
@@ -61,6 +62,7 @@
         android:layout_marginStart="32dp"
         android:layout_marginTop="16dp"
         android:text="@string/carne"
+        android:textColor="@color/darkGray"
         android:textSize="15sp"
         app:layout_constraintStart_toEndOf="@+id/cb_tomate"
         app:layout_constraintTop_toBottomOf="@+id/tv_textoIngredientes" />
@@ -71,6 +73,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="80dp"
         android:text="@string/cebolla"
+        android:textColor="@color/darkGray"
         android:textSize="15sp"
         app:layout_constraintStart_toStartOf="@+id/frameBusqueda"
         app:layout_constraintTop_toBottomOf="@+id/cb_tomate" />
@@ -81,6 +84,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="80dp"
         android:text="@string/pollo"
+        android:textColor="@color/darkGray"
         android:textSize="15sp"
         app:layout_constraintStart_toStartOf="@+id/frameBusqueda"
         app:layout_constraintTop_toBottomOf="@+id/cb_cebolla" />
@@ -91,6 +95,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="80dp"
         android:text="@string/pasta"
+        android:textColor="@color/darkGray"
         android:textSize="15sp"
         app:layout_constraintStart_toStartOf="@+id/frameBusqueda"
         app:layout_constraintTop_toBottomOf="@+id/cb_pollo" />
@@ -101,6 +106,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="80dp"
         android:text="@string/chile"
+        android:textColor="@color/darkGray"
         android:textSize="15sp"
         app:layout_constraintStart_toStartOf="@+id/frameBusqueda"
         app:layout_constraintTop_toBottomOf="@+id/cb_pasta" />
@@ -111,6 +117,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="80dp"
         android:text="@string/queso"
+        android:textColor="@color/darkGray"
         android:textSize="15sp"
         app:layout_constraintStart_toStartOf="@+id/frameBusqueda"
         app:layout_constraintTop_toBottomOf="@+id/cb_chile" />
@@ -121,6 +128,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="80dp"
         android:text="@string/tortillas"
+        android:textColor="@color/darkGray"
         android:textSize="15sp"
         app:layout_constraintStart_toStartOf="@+id/frameBusqueda"
         app:layout_constraintTop_toBottomOf="@+id/cb_queso" />
@@ -131,6 +139,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="80dp"
         android:text="@string/mayonesa"
+        android:textColor="@color/darkGray"
         android:textSize="15sp"
         app:layout_constraintStart_toStartOf="@+id/frameBusqueda"
         app:layout_constraintTop_toBottomOf="@+id/cb_tortillas" />
@@ -141,6 +150,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         android:text="@string/jamon"
+        android:textColor="@color/darkGray"
         android:textSize="15sp"
         app:layout_constraintStart_toEndOf="@+id/cb_tomate"
         app:layout_constraintTop_toBottomOf="@+id/cb_carne" />
@@ -151,6 +161,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         android:text="@string/pan"
+        android:textColor="@color/darkGray"
         android:textSize="15sp"
         app:layout_constraintStart_toEndOf="@+id/cb_tomate"
         app:layout_constraintTop_toBottomOf="@+id/cb_jamon" />}
@@ -161,6 +172,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         android:text="@string/elote"
+        android:textColor="@color/darkGray"
         android:textSize="15sp"
         app:layout_constraintStart_toEndOf="@+id/cb_tomate"
         app:layout_constraintTop_toBottomOf="@+id/cb_pan" />
@@ -171,6 +183,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         android:text="@string/aceitunas"
+        android:textColor="@color/darkGray"
         android:textSize="15sp"
         app:layout_constraintStart_toEndOf="@+id/cb_tomate"
         app:layout_constraintTop_toBottomOf="@+id/cb_elote" />
@@ -181,6 +194,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         android:text="@string/pepino"
+        android:textColor="@color/darkGray"
         android:textSize="15sp"
         app:layout_constraintStart_toEndOf="@+id/cb_tomate"
         app:layout_constraintTop_toBottomOf="@+id/cb_aceitunas" />
@@ -191,6 +205,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         android:text="@string/salchicha"
+        android:textColor="@color/darkGray"
         android:textSize="15sp"
         app:layout_constraintStart_toEndOf="@+id/cb_tomate"
         app:layout_constraintTop_toBottomOf="@+id/cb_pepino" />
@@ -201,6 +216,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         android:text="@string/mostaza"
+        android:textColor="@color/darkGray"
         android:textSize="15sp"
         app:layout_constraintStart_toEndOf="@+id/cb_tomate"
         app:layout_constraintTop_toBottomOf="@+id/cb_salchicha" />

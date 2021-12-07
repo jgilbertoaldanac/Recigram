@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "870506521113",
+    "project_id": "recigram-41e82",
+    "storage_bucket": "recigram-41e82.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:870506521113:android:e3fcef324ebf2f0fe10088",
+        "android_client_info": {
+          "package_name": "aldana.gilberto.recigram"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "870506521113-tm1c50u7lamdjr6s364lddecqt56vcum.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8Dso3wS_0rmA-ZFy2gGwrfaYaws4uYxU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "870506521113-tm1c50u7lamdjr6s364lddecqt56vcum.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
