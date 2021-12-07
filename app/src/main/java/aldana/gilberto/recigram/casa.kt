@@ -21,7 +21,7 @@ class casa : AppCompatActivity() {
 
         auth = Firebase.auth
 
-        signOut()
+        //signOut()
         //setContentView(R.layout.activity_casa)
 
         val btn_ver : Button = findViewById(R.id.btn_ver)
